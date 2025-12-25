@@ -1,0 +1,11 @@
+package com.ozalp.dtos.requests;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class LoginRequest {
+    String username;
+    String password;
+}
