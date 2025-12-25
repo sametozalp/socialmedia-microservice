@@ -15,6 +15,7 @@ ext {
             configClient: "org.springframework.cloud:spring-cloud-config-client:${versions.springCloud}",
             postgresql: "org.postgresql:postgresql:${versions.postgresql}",
             springBootDataJpa: "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
+            springBootDataRedis: "org.springframework.boot:spring-boot-starter-data-redis:${versions.springBoot}",
             lombok: "org.projectlombok:lombok:${versions.lombok}",
             swaggerui: "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}",
     ]
