@@ -3,14 +3,16 @@ ext {
             springBoot: '3.2.5',
             postgresql: '42.7.8',
             lombok: '1.18.34',
-            swagger: '2.8.9'
+            swagger: '2.8.9',
+            springCloud: '4.3.0'
     ]
 
     libs = [
             springBootStarterWeb: "org.springframework.boot:spring-boot-starter-web:${versions.springBoot}",
+            openFeign: "org.springframework.cloud:spring-cloud-starter-openfeign:${versions.springCloud}",
             postgresql: "org.postgresql:postgresql:${versions.postgresql}",
             springBootDataJpa: "org.springframework.boot:spring-boot-starter-data-jpa:${versions.springBoot}",
             lombok: "org.projectlombok:lombok:${versions.lombok}",
-            swaggerui: "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}"
+            swaggerui: "org.springdoc:springdoc-openapi-starter-webmvc-ui:${versions.swagger}",
     ]
 }
