@@ -4,5 +4,6 @@ dependencies {
     implementation libs.postgresql
     annotationProcessor libs.lombok
     implementation libs.openFeign
+    implementation libs.configClient
 
 }

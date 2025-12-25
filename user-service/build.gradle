@@ -4,4 +4,5 @@ dependencies {
     implementation libs.postgresql
     implementation libs.springBootDataJpa
     annotationProcessor libs.lombok
+    implementation libs.configClient
 }
